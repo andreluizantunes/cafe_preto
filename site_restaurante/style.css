@@ -1,0 +1,174 @@
+body {
+    background-color:  #11100f;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Luxurious Roman;
+    font-size: 22px;
+}
+.conteudo{
+    width: 80%;
+    position:relative;
+    top:0;
+    left: 10%;
+}
+
+/*-----------------------------------------------------------cabecalho*/
+.cabecalho{
+    background-color:#2e2a28 ; 
+    color: #f3f0ef;
+    text-align: center;
+    padding: 2px;
+}
+/*-------------------------------------------------------------botoes*/
+.dividida {
+    background-color:  #e04415;
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.dividida ul {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    display: inline-flex;
+    padding: 1%;
+}
+
+.dividida li {
+    float: left;
+    display: inline;
+}
+
+.dividida a {
+    display: block;
+    padding: 14px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.dividida a:hover {
+    background-color:#2e2a28;
+}
+/*----------------------------------------------------texto restaurante*/
+section {
+    padding: 40px;
+    border-radius: 4px;
+}
+
+#home {
+    background-color:#2e2a28 ;
+    color:azure;
+}
+/*-----------------------------------------------------imgmelhorbrasil*/
+.melhordomundo{
+    background-color: #2e2a28;
+}
+/*----------------------------------------------------------começomenu*/
+.itensdomenuu{
+    box-shadow: #11100f 1px 1px 1px 1px;
+    width: 100%;
+}
+
+.indicacaomenu{
+    background-color:#2e2a28 ; 
+    color: #f3f0ef;
+    text-align: center;
+    padding: 50px;
+}
+/*----------------------------------------------------------------menu*/
+#menu {
+    display: flex;
+    color: #f3f0ef;
+    background-color:#2e2a28; 
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu-item img {
+    border-radius: 800px;
+}
+
+.info h3 {
+    margin-top: 12px;
+    color: #f3f0ef;
+}
+
+.info p {
+    color:  #f3f0ef;
+}
+/*--------------------------------------------------------formulario*/
+.pdf{
+    background-color:#2e2a28;
+    color: #f3f0ef; 
+    padding: 10px 0;
+}
+/*--------------------------------------------------------formulario*/
+#formatura{
+    background-color:#2e2a28; 
+
+}
+
+.formar{
+    background-color:#2e2a28; 
+    color: #f3f0ef;
+    display: inline-block;
+    width: 60%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f3f0ef;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom:10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f3f0ef;
+    color:504f4f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e04415;
+}
+/*--------------------------------------------------------------rodapé*/
+#contact{
+    background-color:#e04415;
+    color: azure;
+}
+/*--------------------------------------------------------------footer*/
+footer {
+    background-color: #2e2a28; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:absolute;
+    width: 100%;
+    border-radius: 4px;
+}
+/*------------------------------------------------------------*/
+
