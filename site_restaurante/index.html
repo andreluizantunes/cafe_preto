@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Luxurious_Roman/LuxuriousRoman-Regular.ttf" />
-    <link rel="stylesheet" href="style.css">
-    <title>Restaurante Buona Tavola </title>
+    <title>Café Preto</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-------------------------------cabeçalho--------------------------->
-<header>
-    <section>
-        <div class="conteiner">
-            <h1>Restaurante Buona Tavola</h1>
+    <header>
+        <div class="container">
+            <h1>Café Preto</h1>
             <nav>
-                <ul class="dividida">
+                <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#contact">Contato</a></li>
@@ -22,129 +24,108 @@
                 </ul>
             </nav>
         </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./images/cafe_fachada.jpg" alt="Fachada do cafe" />
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus, ipsum aspernatur excepturi quis illo. Et, aut, unde quod, quisquam fugiat porro rerum dolore nihil laudantium voluptates asperiores vitae veniam.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati possimus omnis, sunt velit reprehenderit sequi asperiores magnam quia sed ex odit, quisquam ipsum molestiae. Laborum natus adipisci facere aliquam!
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/nintendo.png" alt="Nintendo" /></li>
+                    <li><img src="./images/xbox.png" alt="Xbox" /></li>
+                    <li><img src="./images/playstation.png" alt="Playstation" /></li>
+                </ul>
+            </div>
+        </div>
     </section>
-</header>
-
-<!---------------------------------texto----------------------------->
-    <section id="home">
-        <h2>Descubra a Autêntica Paixão da Cozinha Italiana!</h2>
-        <p>Bem-vindo ao Restaurante Buona Tavola, onde cada prato é uma viagem direta para as ruas ensolaradas de Roma e as pitorescas colinas da Toscana.</p>
-    </section>
-<!----------------------home img-------------------------------------->
-    <div class="melhordomundo">
-        <img src="./imagens/imagem2.jpg" width="99%" height="600px">
-    </div>
-<!--------------------------indicaçãomenu---------------------------->
-    <div class="indicacaomenu">
-        <img src="./icone_site/icone3.png" width="50px" height="50px">
-        <h2>Menu</h2>
-        <p>Venha passar um momento especial com a gente! Nosso cardápio é feito com muito amor e os melhores ingredientes da cidade.</p>
-        <p>Tudo fresco e orgânico para você ter o melhor no seu prato. Restaurante Buona Tavola aqui você vai ser tratado que nem rei!</p>
-    </div>
-<!------------------------------menu--------------------------------->
+<!-------------------------------------------------------------------->
     <section id="menu">
         <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/sopa-minestrone-em-cima-da-mesa_140725-799.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=sph" alt="Minestrone" width="150px" height="150px">
+            <img src="./images/Cappucino.jpg" alt="Cappucino">
             <div class="info">
-                <h3>Minestrone</h3>
+                <h3>Cappucino</h3>
                 <p>Caldo de legumes, feijão, paio, passata de tomate e cebola</p>
             </div>
         </div>
         <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/deliciosa-massa-no-prato_23-2150690741.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=ais" alt="Spaghetti Carbonara" width="150px" height="150px">
+            <img src="./images/expresso.jpg" alt="Expresso">
             <div class="info">
                 <h3>Spaghetti Carbonara</h3>
                 <p>Bacon, ovos, queijo parmesão e pimenta</p>
             </div>
         </div>
         <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/fatias-de-bruschetta-na-placa-de-madeira-preta_23-2148698659.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=sph" alt="Bruschetta" width="150px" height="150px">
+            <img src="#" alt="Bruschetta">
             <div class="info">
                 <h3>Bruschetta</h3>
                 <p>Pão grelhado, azeite de oliva e tomates picados</p>
             </div>
         </div>
         <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/uma-fatia-de-pizza-crocante-com-carne-e-queijo_140725-6974.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=ais" alt="Pizza" width="150px" height="150px">
+            <img src="#" alt="Pizza">
             <div class="info">
                 <h3>Pizza Margherita</h3>
                 <p>Molho de tomate, mozzarella e azeite de oliva</p>
             </div>
         </div>
     </section>
-<!------------------------------menu--------------------------------->
-    <section id="menu">
-        <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/garrafa-de-vinho-elegante-e-copo-com-ia-generativa-de-uvas_188544-8088.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=sph" alt="Vinhos" width="150px" height="150px">
-            <div class="info">
-                <h3>Vinhos</h3>
-                <p>Os preços podem variar dependendo do ano da safra</p>
-            </div>
-        </div>
-        <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/queijos-franceses-e-suicos-em-bandeja-de-madeira-rustica-gerada-por-ia_188544-17019.jpg?w=1380&t=st=1701145920~exp=1701146520~hmac=ec6c2ee05aae126030ff3a95200c8569e8adb5e887a95d7b538d76eab4a94d12" alt="Queijos" width="150px" height="150px">
-            <div class="info">
-                <h3>Queijos</h3>
-                <p>Variedade cada um com suas características únicas de sabor, textura e aroma</p>
-            </div>
-        </div>
-        <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/delicioso-pao-branco-e-integral-na-cesta_23-2148432295.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=sph" alt="Paes" width="150px" height="150px">
-            <div class="info">
-                <h3>Paes</h3>
-                <p>Vaariedade de Paes com ingredientes frescos para realçar o sabor</p>
-            </div>
-        </div>
-        <div class="menu-item">
-            <img src="https://img.freepik.com/fotos-gratis/um-prato-de-tiramisu-com-uma-xicara-de-cafe-ao-fundo_188544-17893.jpg?size=626&ext=jpg&ga=GA1.1.405981632.1700945288&semt=sph" alt="Tiramisú" width="150px" height="150px">
-            <div class="info">
-                <h3>Tiramisù</h3>
-                <p>Sobremesa de camadas alternadas de biscoitos com café, mascarpone e cacau em pó</p>
-            </div>
-        </div>
-    </section>
-<!------------------------------linkpdf--------------------------->
-    <div class="pdf">
-        <p>Acesse nosso cardápio completo aqui:</p>
-        <a href="./menu/menu.pdf">
-        <button type="button">Menu em PDF</button>
-        </a>
-    </div>
-<!------------------------------formulario------------------------>
-    <section id="formatura">
-        <div class="formar">
-            <form>
-                <h1>Faça sua Reserva</h1>
-                <br><br>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-                <br><br>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                <br><br>
-                <button type="submit">Enviar</button>
-                <br><br>
-            </form>
-        </div>
-    </section>
-<!------------------------------contato---------------------------->
+<!-------------------------------------------------------------------->
+
     <section id="contact">
-        <div>
-            <h2>Entre em Contato</h2>
-            <p>Entre em contato conosco para reservas ou mais informações.</p>
-            <p>Horário de funcionamento: Segunda a Sabádo, das 18:00h às 23:00h</p>
-            <p>Endereço: Rua Antone Borrri - 351, Maringá - PR</p>
-            <p>Telefone: (44) 94002-8922</p>
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no Youtube">
+                                <img src="./images/youtube.png" alt="Logo do Youtube" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua JavaScript n° 124, Vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
-<!------------------------------rodape---------------------------->
     <footer>
-        <p>Restaurante Buona Tavola</p>
-        <p> 2024 </p>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
     </footer>
-</div>
 </body>
 </html>
