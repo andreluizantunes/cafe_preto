@@ -1,7 +1,7 @@
-# Restaurante Ficticio
+# Cafeteria
 ***
-## Primeiro html e css3
+## Projeto EBAC html e css3
 
-Primeiro projeto livre, vou aprimora-lo conforme os estudos avançarem.
+Consiste em uma cafeteria fictícia criada com apenas html5 e css3.
 
 
