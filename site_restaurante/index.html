@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Preto</title>
+    <title>Café Preto  &#9749;</title>
     <link rel="stylesheet" href="./main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,18 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    
+
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Café Preto</h1>
+            <h1>Café Preto  &#9749;</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#contact">Contato</a></li>
-                    <li><a href="#formatura">Reserva</a></li>
+                    <li><a href="#formatura">Pedidos</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,7 +34,7 @@
         <div class="container">
             <img class="store-front" src="./images/cafe.jpg" alt="Fachada do cafe" />
             <div>
-                <h2>Sobre a loja &#9749;</h2>
+                <h2>Sobre a loja</h2>
                 <p>
                     <strong>Bem-vindo à nossa cafeteria,</strong> um espaço onde cada xícara de café é preparada com carinho e dedicação. Nossa missão é proporcionar uma experiência única, combinando o aroma e o sabor inconfundíveis do café com um ambiente acolhedor e convidativo.
                 </p>
@@ -46,38 +46,7 @@
             </div>
         </div>
     </section>
-<!-------------------------------------------------------------------->
-<section id="menu">
-    <div class="menu-item">
-        <img src="./images/Cappucino.jpg" alt="Cappucino">
-        <div class="info">
-            <h3>Cappucino</h3>
-            <p>Café Espresso, Leite, Espuma de Leite e Chocolate</p>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="./images/expresso.jpg" alt="Cafe Expresso">
-        <div class="info">
-            <h3>Café Expresso</h3>
-            <p>Grãos de café de alta qualidade e Água quente</p>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="./images/cafe_gourmet.jpg" alt="Cafe Gourmet">
-        <div class="info">
-            <h3>Cafe Gourmet</h3>
-            <p>Café de alta qualidade, Ovomaltine, leite condensado</p>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="images/cafe_sorvete.jpg" alt="Cafe Sorvete">
-        <div class="info">
-            <h3>Cafe Sorvete</h3>
-            <p>Café forte, chantilly e sorvete de creme</p>
-        </div>
-    </div>
-</section>
-<!-------------------------------------------------------------------->
+    <!-------------------------------------------------------------------->
     <section id="menu">
         <div class="menu-item">
             <img src="./images/Cappucino.jpg" alt="Cappucino">
@@ -96,28 +65,82 @@
         <div class="menu-item">
             <img src="./images/cafe_gourmet.jpg" alt="Cafe Gourmet">
             <div class="info">
-                <h3>Cafe Gourmet</h3>
+                <h3>Café Gourmet</h3>
                 <p>Café de alta qualidade, Ovomaltine, leite condensado</p>
             </div>
         </div>
         <div class="menu-item">
             <img src="images/cafe_sorvete.jpg" alt="Cafe Sorvete">
             <div class="info">
-                <h3>Cafe Sorvete</h3>
+                <h3>Café Sorvete</h3>
                 <p>Café forte, chantilly e sorvete de creme</p>
             </div>
         </div>
     </section>
-<!-------------------------------------------------------------------->
+    <section id="menu">
+        <div class="menu-item">
+            <img src="./images/Cappucino.jpg" alt="Cappucino">
+            <div class="info">
+                <h3>Cappucino</h3>
+                <p>Café Espresso, Leite, Espuma de Leite e Chocolate</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="./images/expresso.jpg" alt="Cafe Expresso">
+            <div class="info">
+                <h3>Café Expresso</h3>
+                <p>Grãos de café de alta qualidade e Água quente</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="./images/cafe_gourmet.jpg" alt="Cafe Gourmet">
+            <div class="info">
+                <h3>Café Gourmet</h3>
+                <p>Café de alta qualidade, Ovomaltine, leite condensado</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="images/cafe_sorvete.jpg" alt="Cafe Sorvete">
+            <div class="info">
+                <h3>Café Sorvete</h3>
+                <p>Café forte, chantilly e sorvete de creme</p>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------------------------->
+    <section id="Requests">
+        <h2>Faça seu Pedido</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="order">Pedido:</label>
+                <textarea id="order" name="order" rows="4" required></textarea>
+            </div>
+            <div class="button-container">
+                <button type="submit">Enviar Pedido</button>
+            </div>
+        </form>
+    </section>
+    <!-------------------------------------------------------------------->
     <section id="contato">
         <h2>Entre em Contato</h2>
         <div class="contato-opcoes">
             <div class="contato-item">
                 <h3>Email</h3>
                 <ul class="brands-list">
-                    <li><img src="./images/email1.png" alt="Email" /></li>
+                    <li><img src="./images/email.png" alt="Email" /></li>
                 </ul>
-                <hr>
                 <p>Envie-nos um email para: <a href="mailto:contato@cafeteria.com">contato@cafeteria.com</a></p>
             </div>
             <div class="contato-item">
@@ -125,30 +148,28 @@
                 <ul class="brands-list">
                     <li><img src="./images/telefone.png" alt="Nintendo" /></li>
                 </ul>
-                <hr>
-                <p>Ligue para nós:
-                <a href="tel:+5511999999999">+55 11 99999-9999</a></p>
+                <p>Ligue para:
+                <a href="tel:+5511999999999">+55 44 00000-0000</a></p>
             </div>
             <div class="contato-item">
                 <h3>Redes Sociais</h3>
                 <ul class="brands-list">
-                    <li><img src="./images/instagram1.png" alt="Instagram" /></li>
+                    <li><img src="./images/instagram.png" alt="Instagram" /></li>
                     <li><img src="./images/facebook.png" alt="Facebook" /></li>
                 </ul>
-                <hr>
-                <p>Siga-nos nas redes sociais:</p>
+                <p>Siga-nos nas redes sociais</p>
             </div>
             <div class="contato-item">
                 <h3>Endereço</h3>
                 <ul class="brands-list">
                     <li><img src="./images/maps.png" alt="Instagram" /></li>
                 </ul>
-                <hr>
-                <p>Visite-nos: Rua Exemplo, 123, Centro, Cidade, Estado</p>
+                <p>Visite-nos: Rua Avenida, 123, Centro, Cidade X - PR</p>
             </div>
         </div>
     </section>
-<!-------------------------------------------------------------------->
+    <!-------------------------------------------------------------------->
+
     <footer>
         <div class="container">
             <p>
