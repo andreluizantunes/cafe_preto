@@ -20,12 +20,15 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
-body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+body, input, textarea, p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 header {
@@ -56,10 +59,14 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: justify;
 }
 
 .brands-list img {
-    height: 24px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px; /* Certifique-se de que a altura e a largura sejam iguais */
+    object-fit: cover;
 }
 
 .brands-list li {
@@ -80,7 +87,7 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: #3D2B1F ;
 }
 
 section p {
@@ -89,6 +96,9 @@ section p {
 
 .store-front {
     margin-right: 32px;
+    border-radius: 8px;
+    border: 2px solid #C68E17;
+    height: 450px;
 }
 
 .social-links img {
@@ -152,12 +162,11 @@ input:focus, textarea:focus {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Ocupa a altura total da janela de visualização */
 }
 
 .menu-item {
     text-align: center;
-    margin: 0 15px; /* Adiciona margem entre os itens */
+    margin: 0 15px 20px; /* Adiciona margem entre os itens e abaixo do último item */
 }
 
 .menu-item img {
@@ -165,19 +174,19 @@ input:focus, textarea:focus {
     width: 300px;
     height: 300px; /* Certifique-se de que a altura e a largura sejam iguais */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    border: 5px solid #C68E17;
 }
 
 .info h3,
 .info p {
-    margin-top: 20px;
+    margin-top: 15px; /* Reduzido de 20px para 15px */
     color: #3D2B1F;
     word-break: break-word;
 }
 
 .info {
-    margin-top: 30px;
+    margin-top: 20px; /* Reduzido de 30px para 20px */
 }
-
 /**/
 #contato {
     padding: 20px;
@@ -224,13 +233,13 @@ input:focus, textarea:focus {
 footer {
     background-color: #3D2B1F;
     color: #ecf0f1;
-    padding: 16px 0;
+    padding: 20px 0;
 }
 
 /*
 Marrom Café Escuro: #4B3621
 Marrom Espresso: #3B2F2F
-Marrom Chocolate Amargo: #3D2B1F
+Marrom Chocolate Amargo: c
 Café: #6f4e37
 Café: #6f4e37
 Café com Leite: #a18262
