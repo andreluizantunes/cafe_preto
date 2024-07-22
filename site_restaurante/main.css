@@ -31,7 +31,7 @@ body, input, textarea {
 header {
     padding: 16px 0;
     background-color: #3D2B1F;
-    color: #ecf0f1;
+    color: #FFD59A;
 }
 
 header nav li {
@@ -41,7 +41,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #FFF8E7;
     text-decoration: none;
 }
 
@@ -146,47 +146,98 @@ input:focus, textarea:focus {
     outline-color: #182C61;
 }
 
+/**/
+
+#menu {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa a altura total da janela de visualização */
+}
+
+.menu-item {
+    text-align: center;
+    margin: 0 15px; /* Adiciona margem entre os itens */
+}
+
+.menu-item img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; /* Certifique-se de que a altura e a largura sejam iguais */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+}
+
+.info h3,
+.info p {
+    margin-top: 20px;
+    color: #3D2B1F;
+    word-break: break-word;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+/**/
+#contato {
+    padding: 20px;
+    text-align: center;
+    color: #3D2B1F;
+}
+
+.contato-opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato-item {
+    background-color: #4B3621;
+    border: 1px solid #dddddd ;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contato-item h3 {
+    margin-bottom: 10px;
+    color: #FFD59A;
+}
+
+.contato-item p, .contato-item ul {
+    margin: 0;
+    color:  #FFF8E7;
+}
+
+.contato-item a {
+    color: #d6ab4e;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    text-decoration: underline;
+}
+
+/**/
 footer {
-    background-color: #182C61;
+    background-color: #3D2B1F;
     color: #ecf0f1;
     padding: 16px 0;
 }
 
-/**/
-.itensdomenuu{
-    box-shadow: #11100f 1px 1px 1px 1px;
-}
-
-.indicacaomenu{
-    background-color:#2e2a28 ; 
-    color:  #182C61;
-    text-align: center;
-}
-
-#menu {
-    display: flex;
-    justify-content: space-between;
-    color:  #182C61;
-}
-
-.menu-item {
-    width: 300px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.menu-item img {
-    height: 200px;
-    border-radius: 100%;
-}
-
-.info h3 {
-    margin-top: 12px;
-    color:  #182C61;
-}
-
-.info p {
-    color:   #182C61;
-}
+/*
+Marrom Café Escuro: #4B3621
+Marrom Espresso: #3B2F2F
+Marrom Chocolate Amargo: #3D2B1F
+Café: #6f4e37
+Café: #6f4e37
+Café com Leite: #a18262
+Moca: #6a4e36
+Branco Leitoso: #FFF8E7
+Creme Claro: #F5F5DC
+Caramelo Claro: #FFD59A
+Caramelo Médio: #C68E17
+Caramelo Escuro: #8B5742
+*/
