@@ -53,7 +53,7 @@ section .container {
 .brands-list img {
     border-radius: 100px;
     width: 50px;
-    height: 50px; /* Certifique-se de que a altura e a largura sejam iguais */
+    height: 50px;
     object-fit: cover;
 }
 
@@ -144,39 +144,83 @@ input:focus, textarea:focus {
     outline-color: #3D2B1F;
 }
 
-/**/
-
 #menu {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; 
+    align-items: center;
 }
 
 .menu-item {
     text-align: center;
-    margin: 0 15px 20px; /* Adiciona margem entre os itens e abaixo do último item */
+    margin: 0 15px 20px; 
 }
 
 .menu-item img {
     border-radius: 50%;
     width: 300px;
-    height: 300px; /* Certifique-se de que a altura e a largura sejam iguais */
-    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    height: 300px; 
+    object-fit: cover;
     border: 3px solid #C68E17;
 }
 
 .info h3,
 .info p {
-    margin-top: 15px; /* Reduzido de 20px para 15px */
+    margin-top: 15px;
     color: #3D2B1F;
     word-break: break-word;
 }
 
 .info {
-    margin-top: 20px; /* Reduzido de 30px para 20px */
+    margin-top: 20px;
 }
-/**/
-#contato {
+
+#requests {
+    padding: 0 33%;
+    text-align: center;
+    color: #3D2B1F;
+
+}
+
+#requests h2 {
+    color: #4B3621;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4B3621;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3D2B1F;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3D2B1F;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
     padding: 100px;
     text-align: center;
     color: #3D2B1F;
@@ -218,57 +262,12 @@ input:focus, textarea:focus {
     text-decoration: underline;
 }
 
-/**/
 footer {
     background-color: #3D2B1F;
     color: #ecf0f1;
     padding: 20px 0;
 }
-/**/
-#Requests {
-    padding: 0 33%;
-    text-align: center;
-    color: #3D2B1F;
 
-}
-
-#Requests h2 {
-    color: #4B3621;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #4B3621;
-}
-
-.form-group input, .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #3D2B1F;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #3D2B1F;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-}
 /*
 Marrom Café Escuro: #4B3621
 Marrom Espresso: #3B2F2F
