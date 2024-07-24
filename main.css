@@ -245,6 +245,13 @@ button:hover {
     color: #3D2B1F;
 }
 
+address{
+        font-family: "Pacifico", cursive;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 20px;
+    }
+
 .contato-opcoes {
     display: flex;
     flex-wrap: wrap;
@@ -275,10 +282,6 @@ button:hover {
 .contato-item a {
     color: #d6ab4e;
     text-decoration: none;
-}
-
-.contato-item a:hover {
-    text-decoration: underline;
 }
 
 footer {
