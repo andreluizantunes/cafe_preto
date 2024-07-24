@@ -30,26 +30,35 @@ header {
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 header nav li a {
     color: #FFF8E7;
     text-decoration: none;
+    padding: 34px;
 }
 
-.container {
+.conteiner {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container,
-section .container {
+.conteiner img{
+    padding: 1px;
+}
+
+header .conteiner,
+section .conteiner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: justify;
+}
+
+#home{
+    padding-top: 35px;
 }
 
 .brands-list img {
@@ -80,7 +89,7 @@ section h2 {
 
 section p,
 article p {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .store-front {
@@ -290,6 +299,7 @@ footer {
     color: #ecf0f1;
     padding: 20px 0;
 }
+
 
 /*
 Marrom Café Escuro: #4B3621
