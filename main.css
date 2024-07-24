@@ -7,6 +7,8 @@
 header,
 section h2,
 section h3,
+article h2,
+article h3,
 form button {
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -14,7 +16,7 @@ form button {
     font-size: 30px;
 }
 
-body, input, textarea, p{
+body, input, textarea, p {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
 }
@@ -66,19 +68,18 @@ section .container {
     align-items: flex-start;
 }
 
-section {
+section,
+article {
     padding: 24px 0;
+    color: #3D2B1F ;
 }
 
 section h2 {
     margin-bottom: 16px;
 }
 
-section {
-    color: #3D2B1F ;
-}
-
-section p {
+section p,
+article p {
     margin-bottom: 8px;
 }
 
@@ -125,7 +126,7 @@ form textarea {
     height: 180px;
 }
 
-section h3 {
+article h3 {
     margin-bottom: 16px;
 }
 
