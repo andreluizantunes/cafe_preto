@@ -25,12 +25,25 @@ body, input, textarea, p {
     width: 200px; 
     height: auto; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    padding: 5px;
 }
 
 .hover-image:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+.hover-image-two {
+    width: 200px; 
+    height: auto; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.hover-image-two:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 
 header {
     padding: 16px 0;
