@@ -81,6 +81,10 @@ section .conteiner {
     text-align: justify;
 }
 
+nav a:hover {
+    color:  #d6ab4e;
+}
+
 #home{
     padding-top: 35px;
 }
@@ -121,6 +125,13 @@ article p {
     border-radius: 8px;
     border: 2px solid #C68E17;
     height: 450px;
+}
+
+.store-front:hover{
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .social-links img {
@@ -284,11 +295,11 @@ input:focus, textarea:focus {
 }
 
 address{
-        font-family: "Pacifico", cursive;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 20px;
-    }
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
 
 .contato-opcoes {
     display: flex;
